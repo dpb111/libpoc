@@ -1,0 +1,47 @@
+/* add css module styles here (optional) */
+/* // @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap'); */
+
+:root {
+  --app-background: #3381ff;
+  --sidebar-background: #292929;
+  --sidebar-selected-background: #3381ff;
+  --sidebar-normal-background: rgba(41, 41, 41, 0.2);
+  --icon-button-background: transparent;
+  --icon-button-background-hover: black;
+  --bar-text-color: white;
+  --text-color: black;
+  --background-color: white;
+  --highlight-fill: white;
+  --highlight-text-color: #3381ff;
+  --highlight-background: #3381ff;
+  --unselected-text-color: #8f8f8f;
+  --border: #bfbfbf;
+  --mark-color: rgb(51, 129, 255, 0.3);
+  --text-primary: #292929;
+  --text-disabled: #c2c2c2;
+  --text-secondary: #0707076b;
+  --text-error: #ff3333;
+  --error-main: #ff08148e;
+}
+
+* {
+    font-family: 'Source Sans Pro';
+    box-sizing: border-box;
+}
+
+/* Scrollbar styles  */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c2c2c2;
+    opacity: 0.5;
+    border-radius: 2.5px;
+}
